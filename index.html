@@ -25,39 +25,40 @@
 <body>
     <div id="container">
         <header>
-            <div id="container">
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="bg-dark p-4">
-                        <h5 class="text-white h4"><i class="fas fa-crown"></i> Barões da Ferrovia</h5>
-                        <span class="text-muted">A melhor experiência em viagens ferroviarias.</span>
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"><i class="far fa-id-card"></i> Sobre nós</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-box-open"></i> Pacotes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#"><i class="fas fa-subway"></i> Estações</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <nav class="navbar navbar-dark bg-dark">
-                    <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                </nav>
-            </div>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fab fa-pied-piper-alt"></i> |
+                        Barões da Ferrovia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-male"></i> Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-box-open"></i> Pacotes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-ticket-alt"></i> Passagens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="far fa-life-ring"></i> Ajuda</a>
+                </li>
+            </ul>
         </header>
-
         <main>
-            <div id="videoTrain">
-                <video src="./video-train.mp4" class="videoTrain" controls autoplay muted loop></video>
+            <div id="announcementContainer">
+                <div id="announcement">
+                    <div id="infoAnnouncement">
+                        <h3>Se sua vontade de viajar não é passageira, <br>
+                            <font color="#E12B19">por que sua passagem tem que ser?</font>
+                        </h3>
+                        <h5>Adquira nosso pacote mensal agora mesmo.</h5>
+                        <div id="monthlyPackage">
+                            <i class="fas fa-glass-cheers"></i><br>
+                            <h6>Venha ver nossos valores</h6>
+                        </div>
+                    </div>
+                    <video src="./assets/video-package.mp4" id="videoPackage" controls autoplay muted loop></video>
+                </div>
             </div>
         </main>
 
@@ -71,6 +72,9 @@
 
 
     </div>
+
+
+
 </body>
 
 </html>
