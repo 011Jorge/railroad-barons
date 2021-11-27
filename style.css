@@ -11,7 +11,7 @@ h5 {
   padding-top: 20px;
 }
 
-p {
+.pAbout {
   padding-left: 20px;
   font-size: 20px;
 }
@@ -71,7 +71,7 @@ p {
 #aboutUsContainer {
   width: auto;
   height: 450px;
-  background-color: #eeeeee;
+  background-color: #ebe5f5;
   display: flex;
 }
 
@@ -86,6 +86,19 @@ p {
 #spRawely {
   width: 150px;
   margin: 0 auto;
+}
+
+#destinationsContainer {
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+#destinations {
+  padding-left: 30px;
+}
+
+.card:hover {
+  box-shadow: 1px 0.6px 3px 0.6px rgba(0, 0, 0, 0.507);
 }
 
 @media (max-width: 800px) {
@@ -123,5 +136,9 @@ p {
 
   #stationLight {
     width: 368px;
+  }
+
+  #destinationsContainer {
+    margin-top: 60px;
   }
 }
