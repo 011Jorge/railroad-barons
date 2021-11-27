@@ -12,12 +12,17 @@
     <!--start JS bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+    </script>
     <!-- end JS bootstrap-->
     <!--start Font Awasome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- end Font Awasome-->
+    <!--start link font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <!--end link font-->
     <link rel="stylesheet" href="style.css">
     <title>Barões da Ferrovia</title>
 </head>
@@ -37,13 +42,14 @@
                     <a class="nav-link" href="#"><i class="fas fa-box-open"></i> Pacotes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-ticket-alt"></i> Passagens</a>
+                    <a class="nav-link" href="#"><i class="fas fa-map-marked-alt"></i></i> Destinos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><i class="far fa-life-ring"></i> Ajuda</a>
                 </li>
             </ul>
         </header>
+
         <main>
             <div id="announcementContainer">
                 <div id="announcement">
@@ -60,21 +66,23 @@
                     <video src="./assets/video-package.mp4" id="videoPackage" controls autoplay muted loop></video>
                 </div>
             </div>
+            <div id="aboutUsContainer">
+                <img src="./assets/img-station-light.jpg" id="stationLight" alt="img-station-light">
+                <div id="aboutUs">
+                    <h3>
+                        <font color="#E12B19">Sobre nós</font>
+                    </h3>
+                    <p>
+                        Somos uma empresa de turismo ferroviarío, focada em mostrar as estações da <font
+                        color="#E12B19">The São Paulo Railway Company,</font> <br> (1867–1946) a primeira ferrovia
+                        do estado de São Paulo, que ligava as cidades do planalto paulista
+                        até o litoral.
+                    </p>
+                    <img src="./assets/img-sp-rawely.png" id="spRawely" alt="img-sp-rawely">
+                </div>
+            </div>
         </main>
-
-
-
-
-
-
-
-
-
-
     </div>
-
-
-
 </body>
 
 </html>
