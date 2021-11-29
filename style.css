@@ -94,14 +94,39 @@ h5 {
 }
 
 .destinations {
-  padding-left: 30px;
+  padding-left: 110px;
   display: flex;
 }
 
 .card {
-  margin: 30px;
+  margin: 10px;
   box-shadow: 1px 0.6px 3px 0.6px rgba(0, 0, 0, 0.329);
 
+}
+
+.card-text {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #270570;
+}
+
+
+.btn-primary {
+  background-color: #e12a19;
+  border: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.7;
+  background-color: #e12a19;
+}
+
+.btn-primary:active {
+  background-color: #270570;
 }
 
 .card:hover {
