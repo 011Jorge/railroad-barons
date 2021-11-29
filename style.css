@@ -90,15 +90,22 @@ h5 {
 
 #destinationsContainer {
   padding: 20px;
-  background-color: #eeeeee;
+  background-color: #ebe5f5;
 }
 
-#destinations {
+.destinations {
   padding-left: 30px;
+  display: flex;
+}
+
+.card {
+  margin: 30px;
+  box-shadow: 1px 0.6px 3px 0.6px rgba(0, 0, 0, 0.329);
+
 }
 
 .card:hover {
-  box-shadow: 1px 0.6px 3px 0.6px rgba(0, 0, 0, 0.507);
+  opacity: 0.9;
 }
 
 @media (max-width: 800px) {
@@ -140,5 +147,10 @@ h5 {
 
   #destinationsContainer {
     margin-top: 60px;
+  }
+
+  .destinations {
+    display: block;
+    padding-left: 0;
   }
 }
