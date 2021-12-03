@@ -114,7 +114,6 @@ h5 {
   color: #270570;
 }
 
-
 .btn-primary {
   background-color: #e12a19;
   border: none;
@@ -131,6 +130,30 @@ h5 {
 
 .card:hover {
   opacity: 0.9;
+}
+
+#footerContainer {
+  width: auto;
+  height: 300px;
+  background-color: #270570;
+  color: #e12a19;
+}
+
+#footerContainer > h4, #footerContainer > p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#footerContainer > h6 {
+  text-align: center;
+}
+
+.list-students {
+  margin-left: 100px;
+}
+
+.list-students > li {
+  color: black;
 }
 
 @media (max-width: 800px) {
