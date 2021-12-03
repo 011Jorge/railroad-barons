@@ -156,6 +156,11 @@ h5 {
   color: black;
 }
 
+.links {
+  color: #fff;
+  text-decoration: none;
+}
+
 @media (max-width: 800px) {
   .nav {
     display: inline-block;
@@ -200,5 +205,9 @@ h5 {
   .destinations {
     display: block;
     padding-left: 0;
+  }
+
+  #footerContainer {
+    height: 400px;
   }
 }
