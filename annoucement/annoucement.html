@@ -2,95 +2,99 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--start CSS bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!--end CSS bootstrap-->
-    <!--start JS bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
-    <!-- end JS bootstrap-->
-    <title>Pacotes</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            
-        }
-        body {
-            background-color: #270570;
-        }
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--start CSS bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--end CSS bootstrap-->
+  <!--start JS bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+  <!-- end JS bootstrap-->
+  <title>Pacotes</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
 
-        h5 {
-            color: #e12a19;
-        }
-        #container{
-            margin-top: 80px;
-            margin-left: 500px;
-        }
-        .card:hover {
-            opacity: 0.8;
-            cursor: pointer;
-        }
-    </style>
+    }
+
+    body {
+      background-color: #270570;
+    }
+
+    h5 {
+      color: #e12a19;
+    }
+
+    #container {
+      margin-top: 80px;
+      margin-left: 500px;
+    }
+
+    .card:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  </style>
 </head>
-<body>
-    <div id="container">
-        <div class="card mb-3" onclick="enterCard()" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./img-vip.jpg" class="img-fluid rounded-start" alt="img-vip">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Pacote VIP</h5>
-                  <p class="card-text">1 mes <br>Acentos Especiais.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" onclick="enterCard()" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./img-gold.jpg" class="img-fluid rounded-start" alt="img-vip">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Pacote GOLD</h5>
-                  <p class="card-text">3 meses <br> Acentos Especiais, brindes. </p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
-          </div>
 
-        <div class="card mb-3" id="card03" onclick="enterCard()" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./img-diamante.jpg" class="img-fluid rounded-start" alt="img-diamante">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Pacote Diamante</h5>
-                  <p class="card-text">5 meses <br> Acentos Especiais, brindes, instrutor(a) particular e etc.. </p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-              </div>
-            </div>
+<body>
+  <div id="container">
+    <div class="card mb-3" onclick="enterCard()" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./img-vip.jpg" class="img-fluid rounded-start" alt="img-vip">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Pacote VIP</h5>
+            <p class="card-text">1 mes <br>Acentos Especiais.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" onclick="enterCard()" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./img-gold.jpg" class="img-fluid rounded-start" alt="img-vip">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Pacote GOLD</h5>
+            <p class="card-text">3 meses <br> Acentos Especiais, brindes. </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <script>
-        function enterCard() {
-            alert('ATTENTION This site is educational only nothing here is real! We do not sell any type of ticket or anything like that. Thanks ')
-        }
-    </script>
+    <div class="card mb-3" id="card03" onclick="enterCard()" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./img-diamante.jpg" class="img-fluid rounded-start" alt="img-diamante">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Pacote Diamante</h5>
+            <p class="card-text">5 meses <br> Acentos Especiais, brindes, instrutor(a) particular e etc.. </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function enterCard() {
+      alert('ATTENTION This site is educational only nothing here is real! We do not sell any type of ticket or anything like that. Thanks ')
+    }
+  </script>
 
 </body>
 
