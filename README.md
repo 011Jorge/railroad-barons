@@ -17,6 +17,13 @@
   </p>
 </div>
 
+<h2>🖌 Paleta de Cores</h2>
+<div>
+  <img width="100px" height="100px" src="https://www.colorhexa.com/270570.png" alt="img-color">
+  <img width="100px" height="100px" src="https://www.colorhexa.com/ebe5f5.png" alt="img-color">
+  <img width="100px" height="100px" src="https://color-hex.org/colors/e12a19.png" alt="img-color">
+  </div>
+
 
 
 
