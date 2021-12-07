@@ -57,6 +57,11 @@ h5 {
   cursor: pointer;
 }
 
+.links {
+  text-decoration: none;
+  color: #fff;
+}
+
 #monthlyPackage:hover {
   opacity: 0.8;
 }
@@ -135,6 +140,7 @@ h5 {
 #footerContainer {
   width: auto;
   height: 300px;
+  padding: 90px;
   background-color: #270570;
   color: #e12a19;
 }
@@ -148,17 +154,32 @@ h5 {
   text-align: center;
 }
 
-.list-students {
-  margin-left: 100px;
-}
-
-.list-students > li {
-  color: black;
-}
-
-.links {
+#footerContainer > h4 {
   color: #fff;
-  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+#link-dev {
+  color: #e12a19;
+}
+
+#theSãoPauloRailwayContainer {
+  width: auto;
+  height: auto;
+  background-color: #270570;
+  color: #fff;
+  display: flex;
+}
+
+#img-train-struture {
+  padding-left: 100px;
+  padding-top: 20px;
+  height: 350px;
+}
+
+#theSãoPauloRailway > p {
+  padding-left: 20px;
+  font-size: 18px;
 }
 
 @media (max-width: 800px) {
@@ -181,6 +202,16 @@ h5 {
     display: block;
     text-align: center;
     margin: 30px auto 30px auto;
+  }
+
+  #theSãoPauloRailwayContainer {
+    display: block;
+    text-align: center;
+    margin: 50px auto 50px auto;
+  }
+
+  #img-train-struture {
+    display: none;
   }
 
   #videoPackage {
