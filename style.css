@@ -32,7 +32,8 @@ h5 {
 #announcementContainer {
   width: auto;
   height: 450px;
-  background-color: #270570;
+  background-image: linear-gradient(to bottom, #270570, #e12a19);
+  background-attachment: fixed;
   color: #fff;
   align-items: center;
   margin-top: 20px;
@@ -106,7 +107,6 @@ h5 {
 .card {
   margin: 10px;
   box-shadow: 1px 0.6px 3px 0.6px rgba(0, 0, 0, 0.329);
-
 }
 
 .card-text {
@@ -120,7 +120,7 @@ h5 {
 }
 
 .btn-primary {
-  background-color: #e12a19;
+  background-image: linear-gradient(150deg, #270570, #e12a19);
   border: none;
 }
 
@@ -137,36 +137,16 @@ h5 {
   opacity: 0.9;
 }
 
-#footerContainer {
-  width: auto;
-  height: 300px;
-  padding: 90px;
-  background-color: #270570;
-  color: #e12a19;
-}
-
-#footerContainer > h4, #footerContainer > p {
-  text-align: center;
-  padding-top: 10px;
-}
-
-#footerContainer > h6 {
-  text-align: center;
-}
-
-#footerContainer > h4 {
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-}
-
 #link-dev {
-  color: #e12a19;
+  color: #270570;
 }
 
 #theSãoPauloRailwayContainer {
   width: auto;
   height: auto;
-  background-color: #270570;
+  background-image: linear-gradient(to bottom, #270570, #270570, #e12a19);
+  background-attachment: fixed;
+  color: #fff;
   color: #fff;
   display: flex;
 }
@@ -180,6 +160,29 @@ h5 {
 #theSãoPauloRailway > p {
   padding-left: 20px;
   font-size: 18px;
+}
+
+#footerContainer {
+  width: auto;
+  height: 300px;
+  padding: 90px;
+  background-image: linear-gradient(150deg, #270570, #e12a19);
+  color: #fff;
+}
+
+#footerContainer > h4,
+#footerContainer > p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#footerContainer > h6 {
+  text-align: center;
+}
+
+#footerContainer > h4 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 800px) {
@@ -207,6 +210,7 @@ h5 {
   #theSãoPauloRailwayContainer {
     display: block;
     text-align: center;
+    padding-right: 20px;
     margin: 50px auto 50px auto;
   }
 
